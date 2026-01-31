@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕹️ 3D Gaming / Cyberpunk Hero Section
 
-## Getting Started
+A high-performance, interactive, and fully responsive 3D Hero Section built for **Next.js 14**. It features mouse-parallax effects, 3D tilt animations, and a futuristic "Cyber Ninja" theme.
 
-First, run the development server:
+## ✨ Features
+
+- **🌌 Full Section 3D Float:** The entire website (background, text, character) tilts and rotates in 3D space based on mouse movement.
+- **🥷 Interactive 3D Character:** The Ninja character floats, glows, and has a depth effect (Parallax) that pops out of the screen.
+- **📱 Fully Responsive:** Optimized for Mobile, Tablet, and Desktop.
+    - *Mobile Fix:* Enhanced lighting and glow effects ensure the character is visible even on dark mobile screens.
+    - *Performance:* Heavy calculations are disabled on mobile to save battery.
+- **⚡ Buttery Smooth Animations:** Uses `Framer Motion` physics (springs) for fluid, non-jittery movement.
+- **🃏 3D Tilt Cards:** Feature cards that respond to mouse hover with a realistic tilt effect.
+- **🛠️ Hydration Safe:** Particle effects are generated client-side to prevent Next.js server mismatches.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 14 (App Router)](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+
+---
+
+## 🚀 Installation Guide
+
+### 1. Install Dependencies
+Make sure you have the required packages installed:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install framer-motion lucide-react clsx tailwind-merge
